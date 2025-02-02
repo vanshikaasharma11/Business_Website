@@ -1,48 +1,8 @@
-*{
-    overflow-x: hidden;
+/* Style the body */
+body{
+    background: url("images/bg\ .jpg") no-repeat center/cover fixed;
 }
-.bg-img{
-    height: 250vh;
-    width: 105vw;
-    position: absolute;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    z-index: -1;
+/* Style unordered list */
+nav ul li{
+    list-style: none;
 }
-.header{
-    position: relative;
-    font-size: 40px;
-    color: white;
-    text-align: center;
-    font-family: "SimSun";
-}
-p{
-    color: rgb(216, 216, 216);
-    font-size: 13px;
-    margin-left: 356px;
-    font-family: "Copperplate Gothic Light";
-
-}
-.main-card {
-    background: white;
-    border-radius: 0px;
-    padding: 20px;
-    margin-top: 10px;
-    overflow-y: hidden;
-  }
-  .main-card2{
-    background: white;
-    border-radius: 0px;
-    padding: 20px;
-    margin-top: 12px;
-    overflow-y: hidden;
-  }
-  .main-card3{
-    background: white;
-    border-radius: 0px;
-    padding: 20px;
-    margin-top: 12px;
-    overflow-y: hidden;
-  }
-  
